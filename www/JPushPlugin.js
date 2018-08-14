@@ -27,6 +27,7 @@ JPushPlugin.prototype.callNative = function (name, args, successCallback, errorC
 
 // Common methods
 JPushPlugin.prototype.init = function () {
+  console.log("JPushPlugin.prototype.init");
   if (this.isPlatformIOS()) {
     this.callNative('initial', [], null)
   } else {
@@ -47,6 +48,7 @@ JPushPlugin.prototype.setDebugMode = function (mode) {
 }
 
 JPushPlugin.prototype.getRegistrationID = function (successCallback) {
+  console.log("JPushPlugin.prototype.getRegistrationID");
   this.callNative('getRegistrationID', [], successCallback)
 }
 
