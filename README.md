@@ -13,6 +13,7 @@
 
 注意：目前插件暂未支持 cordova-android 7.0.0，因此在添加 android platform 时，请指定 7.0.0 以下版本，例如 6.4.0。
 
+本版本仅适应于包名为 com.janepie.CloudSCM 的应用，如需更改，可将plugin.xml的 com.janepie.CloudSCM 全部替换为自己的应用包名。
 ## Install
 
 > 注意：
